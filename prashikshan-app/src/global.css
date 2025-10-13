@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#f3f6f8] text-[#1d2226] font-sans;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+a {
+  @apply text-[#0a66c2] hover:underline transition-colors;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-[#0ea5e9];
+}
+
+button {
+  @apply px-4 py-2 rounded-full bg-[#0a66c2] text-white font-semibold shadow-sm hover:bg-[#004182] transition-all duration-150;
+}
+
+input, select, textarea {
+  @apply border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#0a66c2] bg-white;
+}
+
+.card {
+  @apply bg-white shadow-md rounded-lg p-6 mb-4 border border-gray-200;
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 4px 24px 0 rgba(112, 181, 249, 0.15);
+}
+
+.navbar {
+  @apply bg-white shadow flex items-center px-8 py-3 border-b border-gray-200;
+}
+
+.avatar {
+  @apply w-10 h-10 rounded-full border-2 border-white shadow;
+}
+
+/* LinkedIn-style utility classes */
+.linkedin-link {
+  @apply text-[#0a66c2] hover:text-[#004182] font-medium transition-colors;
+}
+
+.linkedin-badge {
+  @apply bg-[#e7f3ff] text-[#0a66c2] px-2 py-1 rounded-full text-xs font-semibold;
+}
+
+/* Add more LinkedIn-inspired utility classes as needed */

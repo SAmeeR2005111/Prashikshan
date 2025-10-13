@@ -1,0 +1,27 @@
+/*
+  Company Module Styles - LinkedIn Theme
+*/
+
+.company-dashboard {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-6;
+}
+
+.company-card {
+  @apply card border-l-4 border-[#0a66c2] hover:shadow-lg transition;
+}
+
+.company-title {
+  @apply text-xl font-semibold mb-2 text-[#0a66c2];
+}
+
+.company-analytics {
+  @apply p-4 bg-[#e7f3ff] rounded shadow;
+}
+
+.company-btn {
+  @apply bg-[#0a66c2] hover:bg-[#004182] text-white px-4 py-2 rounded-full font-semibold transition;
+}
+
+.company-link {
+  @apply linkedin-link;
+}
