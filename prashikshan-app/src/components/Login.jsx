@@ -6,11 +6,11 @@ import { GraduationCap, Building2, Users } from 'lucide-react'
 function Login() {
   const [selectedRole, setSelectedRole] = useState('student')
   const [formData, setFormData] = useState({
-    email: 'email@test.com',
-    password: 'Demo password',
-    name: 'Demo name',
-    college: 'Demo college',
-    company: 'Demo Company'
+    email: '',
+    password: '',
+    name: '',
+    college: '',
+    company: ''
   })
   const { login, user } = useAuth()
   const navigate = useNavigate()
