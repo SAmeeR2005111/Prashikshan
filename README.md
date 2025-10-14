@@ -6,7 +6,7 @@
   </p>
 </div>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyour-username%2Fprashikshan-complete&root-directory=prashikshan-app&project-name=prashikshan&repository-name=prashikshan-app)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F{SAmeeR2005111}%2F{Prashikshan}&root-directory=prashikshan-app&project-name=prashikshan&repository-name=prashikshan-app)
 
 > **Note:** Remember to replace `your-username` in the Vercel button URL with your actual GitHub username after you push the repository!
 
@@ -42,7 +42,7 @@ Follow these steps to get the development environment running on your local mach
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/prashikshan-complete.git
+    git clone https://github.com/SAmeeR2005111/prashikshan-complete.git
     ```
 
 2.  **Navigate to the project directory:**
