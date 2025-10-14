@@ -8,7 +8,6 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F{SAmeeR2005111}%2F{Prashikshan}&root-directory=prashikshan-app&project-name=prashikshan&repository-name=prashikshan-app)
 
-> **Note:** Remember to replace `your-username` in the Vercel button URL with your actual GitHub username after you push the repository!
 
 ---
 
